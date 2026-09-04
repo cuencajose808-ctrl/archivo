@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='gamer juegos informacion' name='description'/>
+<meta content='MOD HUB - Juegos, Mods, Descargas e Información gamer' name='keywords'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[
+:root{--mh-blue:#087cff;--mh-blue2:#0755b5;--mh-cyan:#57d9ff;--mh-bg:#02050a;--mh-panel:#08111d;--mh-panel2:#0b1725;--mh-line:rgba(8,124,255,.25);--mh-text:#fff;--mh-muted:#9aa9bd;--mh-green:#26e17c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -15%,rgba(8,124,255,.25),transparent 34%),radial-gradient(circle at 0% 70%,rgba(0,170,255,.08),transparent 30%),linear-gradient(180deg,#050912,#02050a 70%);color:var(--mh-text);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,#000,transparent 75%);z-index:-1}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.mh-nav{position:sticky;top:0;z-index:9999;background:rgba(2,5,10,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--mh-line);box-shadow:0 8px 35px rgba(0,0,0,.25)}.mh-navin{width:min(1220px,94%);min-height:70px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:15px}.mh-logo{display:flex;align-items:center;gap:10px;font-weight:1000;letter-spacing:.4px}.mh-mark{width:43px;height:43px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--mh-blue),var(--mh-blue2));box-shadow:0 0 28px rgba(8,124,255,.5);font-size:20px}.mh-menu{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.mh-menu a{padding:9px 11px;border-radius:10px;color:#cbd8e9;font-size:12px;font-weight:900;transition:.2s}.mh-menu a:hover{background:rgba(8,124,255,.13);color:#fff;transform:translateY(-1px)}.mh-wrap{width:min(1220px,94%);margin:auto}.mh-hero{min-height:570px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden}.mh-orb{position:absolute;width:470px;height:470px;border-radius:50%;background:rgba(8,124,255,.14);filter:blur(80px);animation:mhPulse 4s ease-in-out infinite}.mh-orb2{position:absolute;width:180px;height:180px;border-radius:50%;background:rgba(87,217,255,.08);filter:blur(45px);animation:mhFloat 7s ease-in-out infinite}.mh-hero-content{position:relative;z-index:2}.mh-badge{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid rgba(87,217,255,.3);border-radius:999px;background:rgba(8,124,255,.07);color:#8ce2ff;font-size:11px;font-weight:1000;letter-spacing:1.3px}.mh-hero h1{margin:22px 0 8px;font-size:clamp(60px,12vw,132px);line-height:.86;letter-spacing:-6px;font-weight:1000;background:linear-gradient(180deg,#fff 12%,#bceaff 45%,#087cff 88%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 28px rgba(8,124,255,.45))}.mh-hero h2{margin:20px 0 12px;font-size:clamp(18px,3vw,30px)}.mh-hero p{max-width:720px;margin:0 auto 27px;color:var(--mh-muted);line-height:1.75;font-size:15px}.mh-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.mh-btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 20px;border-radius:12px;border:1px solid transparent;background:linear-gradient(135deg,var(--mh-blue),var(--mh-blue2));font-size:13px;font-weight:1000;box-shadow:0 12px 32px rgba(8,124,255,.24);transition:.22s}.mh-btn:hover{transform:translateY(-3px);box-shadow:0 17px 38px rgba(8,124,255,.34)}.mh-btn.secondary{background:#0a1420;border-color:var(--mh-line);box-shadow:none}.mh-section{padding:50px 0;scroll-margin-top:80px}.mh-heading{text-align:center;margin-bottom:25px}.mh-heading h2{margin:0 0 8px;font-size:32px}.mh-heading p{margin:0;color:var(--mh-muted);line-height:1.6}.mh-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.mh-card{padding:21px;border:1px solid var(--mh-line);border-radius:18px;background:linear-gradient(145deg,#0d1927,#07101a);transition:.25s;position:relative;overflow:hidden}.mh-card:after{content:"";position:absolute;width:100px;height:100px;right:-55px;top:-55px;background:rgba(8,124,255,.13);border-radius:50%;filter:blur(12px)}.mh-card:hover{transform:translateY(-5px);border-color:rgba(8,124,255,.58)}.mh-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:rgba(8,124,255,.12);border:1px solid var(--mh-line);font-size:22px;margin-bottom:13px}.mh-card h3{margin:0 0 8px}.mh-card p{margin:0;color:var(--mh-muted);font-size:13px;line-height:1.6}.mh-status{margin-top:20px;padding:14px 16px;border:1px solid var(--mh-line);border-radius:14px;background:#07101a;display:flex;align-items:center;justify-content:space-between;gap:12px}.mh-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#f04444;margin-right:7px;box-shadow:0 0 12px rgba(240,68,68,.7)}.mh-dot.on{background:var(--mh-green);box-shadow:0 0 13px rgba(38,225,124,.8)}.mh-tools{display:flex;gap:10px;margin:20px 0}.mh-search,.mh-select{width:100%;padding:14px 15px;border-radius:12px;border:1px solid var(--mh-line);outline:0;background:#07101a;color:#fff}.mh-search:focus,.mh-select:focus{border-color:rgba(8,124,255,.75);box-shadow:0 0 0 3px rgba(8,124,255,.08)}.mh-select{max-width:240px}.mh-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.mh-mod{overflow:hidden;border:1px solid var(--mh-line);border-radius:17px;background:#09111d;transition:.25s}.mh-mod:hover{transform:translateY(-4px);border-color:rgba(8,124,255,.58);box-shadow:0 16px 38px rgba(0,0,0,.2)}.mh-mod-img{height:185px;background:#050a11;display:grid;place-items:center;color:#63738a;overflow:hidden}.mh-mod-img img{width:100%;height:100%;object-fit:cover;display:block}.mh-mod-body{padding:17px}.mh-mod-body h3{margin:0 0 8px;font-size:18px}.mh-mod-body p{margin:0;color:var(--mh-muted);font-size:13px;line-height:1.55;min-height:40px}.mh-meta{margin:11px 0;color:#7f8ea4;font-size:11px}.mh-empty{grid-column:1/-1;padding:40px;text-align:center;border:1px dashed var(--mh-line);border-radius:15px;color:#718197}.mh-info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.mh-info-card{padding:24px;border:1px solid var(--mh-line);border-radius:18px;background:linear-gradient(145deg,#0d1927,#07101a)}.mh-info-card h3{margin-top:0}.mh-info-card p{color:var(--mh-muted);line-height:1.7;font-size:14px}.mh-donate{border:1px solid rgba(8,124,255,.32);border-radius:22px;padding:35px;text-align:center;background:radial-gradient(circle at 50% 0,rgba(8,124,255,.18),transparent 55%),#07101a}.mh-donate h2{margin:0 0 10px}.mh-donate p{max-width:650px;margin:0 auto 20px;color:var(--mh-muted);line-height:1.7}.mh-blog{margin-top:25px}.mh-blog .widget-content{color:#d7e1ef}.mh-blog .post-outer{margin-bottom:18px}.mh-blog .post{padding:22px;border:1px solid var(--mh-line);border-radius:17px;background:rgba(8,14,24,.9)}.mh-blog .post-title,.mh-blog .post-title a{color:#fff;font-size:25px}.mh-blog .post-body{color:#d1dbea;line-height:1.8}.mh-footer{margin-top:45px;padding:45px 20px;text-align:center;border-top:1px solid var(--mh-line);background:#020408}.mh-footer strong{font-size:25px}.mh-footer p{color:#718097;font-size:13px;margin:8px 0}.mh-float{position:fixed;right:18px;bottom:18px;z-index:9998;display:flex;flex-direction:column;gap:8px}.mh-float a{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--mh-blue),var(--mh-blue2));box-shadow:0 8px 25px rgba(8,124,255,.3);font-size:20px}.mh-toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:10000;padding:11px 16px;border:1px solid var(--mh-line);border-radius:11px;background:#101a27;color:#fff;font-size:12px;font-weight:800;transition:.25s}.mh-toast.show{opacity:1;transform:translate(-50%,0)}@keyframes mhPulse{0%,100%{transform:scale(.94);opacity:.55}50%{transform:scale(1.12);opacity:.9}}@keyframes mhFloat{0%,100%{transform:translate(-120px,70px)}50%{transform:translate(130px,-80px)}}@media(max-width:950px){.mh-cards{grid-template-columns:repeat(2,1fr)}.mh-grid{grid-template-columns:repeat(2,1fr)}.mh-info-grid{grid-template-columns:1fr 1fr}}@media(max-width:680px){.mh-navin{flex-direction:column;padding:10px 0}.mh-menu{justify-content:center}.mh-menu a{font-size:11px;padding:7px}.mh-hero{min-height:510px}.mh-hero h1{letter-spacing:-4px}.mh-cards,.mh-grid,.mh-info-grid{grid-template-columns:1fr}.mh-tools{flex-direction:column}.mh-select{max-width:none}.mh-status{align-items:flex-start;flex-direction:column}.mh-float{right:12px;bottom:12px}.mh-float a{width:46px;height:46px}}
+]]></b:skin>
+</head>
+<body>
+<header class='mh-nav'>
+<div class='mh-navin'>
+<a class='mh-logo' expr:href='data:blog.homepageUrl'><span class='mh-mark'>M</span><span>MOD HUB</span></a>
+<nav class='mh-menu'>
+<a href='#inicio'>Inicio</a><a href='#mods'>🎮 Mods</a><a href='#descargas'>📥 Descargas</a><a href='#novedades'>🆕 Novedades</a><a href='#donar'>❤️ Apoyar</a><a href='#soporte'>💬 Soporte</a>
+</nav>
+</div>
+</header>
+<main>
+<section class='mh-wrap mh-hero' id='inicio'>
+<div class='mh-orb'></div><div class='mh-orb2'></div>
+<div class='mh-hero-content'>
+<div class='mh-badge'>⚡ MOD HUB ONLINE · GAMER</div>
+<h1>MOD HUB</h1>
+<h2>JUEGOS · MODS · INFORMACIÓN</h2>
+<p>Una página principal única para descubrir mods, juegos, novedades y descargas. Todo con una experiencia rápida, moderna y adaptada a celular y PC.</p>
+<div class='mh-actions'><a class='mh-btn' href='#mods'>🚀 VER MODS</a><a class='mh-btn secondary' href='#descargas'>📥 DESCARGAS</a></div>
+</div>
+</section>
+<section class='mh-wrap mh-section' id='novedades'>
+<div class='mh-heading'><h2>Todo MOD HUB en un solo lugar</h2><p>Accedé rápidamente a las partes principales de la web.</p></div>
+<div class='mh-cards'>
+<div class='mh-card'><div class='mh-icon'>🎮</div><h3>Juegos y Mods</h3><p>Explorá el catálogo conectado con Firebase.</p></div>
+<div class='mh-card'><div class='mh-icon'>📥</div><h3>Descargas</h3><p>Encontrá los enlaces de descarga configurados para cada MOD.</p></div>
+<div class='mh-card'><div class='mh-icon'>🆕</div><h3>Novedades</h3><p>Las publicaciones de Blogger siguen apareciendo en la portada.</p></div>
+<div class='mh-card'><div class='mh-icon'>👤</div><h3>Mi perfil</h3><p>Zona preparada para conectar tu sistema de perfil y acceso.</p></div>
+</div>
+<div class='mh-status'><div><span id='mhDot' class='mh-dot'></span><span id='mhFirebase'>CONECTANDO CON FIREBASE...</span></div><strong id='mhCount'>0 MODs</strong></div>
+</section>
+<section class='mh-wrap mh-section' id='mods'>
+<div class='mh-heading'><h2>🎮 Últimos MODs</h2><p>Catálogo cargado desde la colección <b>mods</b> de Firebase.</p></div>
+<div class='mh-tools'><input id='mhSearch' class='mh-search' type='search' placeholder='🔎 Buscar MOD, juego, autor o categoría...' autocomplete='off'/><select id='mhCategory' class='mh-select'><option value=''>Todas las categorías</option></select></div>
+<div id='mhGrid' class='mh-grid'><div class='mh-empty'>⏳ Cargando MODs...</div></div>
+</section>
+<section class='mh-wrap mh-section' id='descargas'>
+<div class='mh-heading'><h2>📥 Descargas</h2><p>Los botones de descarga aparecen directamente en las tarjetas de MOD.</p></div>
+<div class='mh-info-grid'><div class='mh-info-card'><h3>⚡ Rápido</h3><p>Buscá el MOD y utilizá su enlace de descarga configurado en Firebase.</p></div><div class='mh-info-card'><h3>🔎 Fácil de encontrar</h3><p>Filtrá por nombre, autor, juego o categoría sin salir de la página principal.</p></div><div class='mh-info-card'><h3>🔒 Más seguro</h3><p>La portada valida que los enlaces sean HTTPS antes de mostrarlos.</p></div></div>
+</section>
+<section class='mh-wrap mh-section' id='publicaciones'>
+<div class='mh-heading'><h2>📰 Novedades de MOD HUB</h2><p>Tus entradas normales de Blogger continúan funcionando.</p></div>
+<div class='mh-blog'><b:section id='main' class='main' showaddelement='no'><b:widget id='Blog1' type='Blog' title='Publicaciones' locked='true' visible='true'/></b:section></div>
+</section>
+<section class='mh-wrap mh-section' id='donar'>
+<div class='mh-donate'><h2>❤️ Apoyá MOD HUB</h2><p>Si te sirve el proyecto y querés ayudar a mantener MOD HUB activo, podés agregar acá tus métodos de donación.</p><div class='mh-actions'><a class='mh-btn' href='#'>❤️ DONAR / APOYAR</a></div></div>
+</section>
+<section class='mh-wrap mh-section' id='soporte'>
+<div class='mh-heading'><h2>💬 Soporte</h2><p>¿Encontraste un problema o necesitás ayuda? Podés conectar este bloque con tu formulario de soporte.</p></div>
+<div class='mh-info-grid'><div class='mh-info-card'><h3>📨 Contacto</h3><p>Usá tu sistema de soporte de MOD HUB para enviar consultas.</p></div><div class='mh-info-card'><h3>🛠️ Problemas</h3><p>Informá errores de descargas, MODs o funcionamiento de la web.</p></div><div class='mh-info-card'><h3>👤 Perfil</h3><p>Tu sistema de inicio de sesión y perfil puede integrarse sin cambiar esta estructura.</p></div></div>
+</section>
+</main>
+<div class='mh-float'><a href='#inicio' title='Inicio'>⌂</a><a href='#mods' title='MODs'>🎮</a><a href='#donar' title='Apoyar MOD HUB'>❤️</a></div>
+<div id='mhToast' class='mh-toast'></div>
+<footer class='mh-footer'><strong>MOD HUB</strong><p>Gamer · Juegos · Mods · Información</p><p>© 2026 MOD HUB</p></footer>
+<script type='module'><![CDATA[
+import{initializeApp,getApps,getApp}from'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import{getFirestore,collection,getDocs}from'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+const firebaseConfig={apiKey:'AIzaSyAy-bTRi7dwOvhA1RWLjIR-ghNdHhMh9Sk',authDomain:'mod-hub-27202.firebaseapp.com',projectId:'mod-hub-27202',storageBucket:'mod-hub-27202.firebasestorage.app',messagingSenderId:'10194857054',appId:'1:10194857054:web:fa6282fd44bba178b458cf',measurementId:'G-J2PF6MT03Z'};
+const grid=document.getElementById('mhGrid'),status=document.getElementById('mhFirebase'),dot=document.getElementById('mhDot'),count=document.getElementById('mhCount'),search=document.getElementById('mhSearch'),category=document.getElementById('mhCategory');let db,mods=[];
+function esc(v){return String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;')}
+function safeUrl(v){const s=String(v||'').trim();return /^https:\/\/\S+$/i.test(s)?s:''}
+function title(m){return String(m.nombre||m.title||m.name||'MOD sin nombre')}
+function desc(m){return String(m.descripcion||m['descripción']||m.description||'Sin descripción.')}
+function cat(m){return String(m.categoria||m['categoría']||m.category||'Otros').trim()}
+function img(m){return String(m.imagen||m.image||m.imageUrl||'').trim()}
+function dl(m){return safeUrl(m.descarga||m.download||m.downloadUrl||m.downloadURL||m.enlace||m.link)}
+function render(){const q=search.value.toLowerCase().trim(),c=category.value;const list=mods.filter(m=>{const t=(title(m)+' '+desc(m)+' '+String(m.autor||m.author||'')+' '+cat(m)).toLowerCase();return(!q||t.includes(q))&&(!c||cat(m)===c)});count.textContent=list.length+' '+(list.length===1?'MOD':'MODs');if(!list.length){grid.innerHTML='<div class="mh-empty">🔎 No se encontraron MODs.</div>';return}grid.innerHTML=list.map(m=>{const im=img(m),link=dl(m),name=title(m);return '<article class="mh-mod"><div class="mh-mod-img">'+(im?'<img src="'+esc(im)+'" alt="'+esc(name)+'" loading="lazy"/>':'🎮 MOD HUB')+'</div><div class="mh-mod-body"><h3>'+esc(name)+'</h3><p>'+esc(desc(m))+'</p><div class="mh-meta">🎮 '+esc(cat(m))+' · 👤 '+esc(m.autor||m.author||'MOD HUB')+'</div>'+(link?'<a class="mh-btn" href="'+esc(link)+'" target="_blank" rel="noopener noreferrer">📥 DESCARGAR</a>':'<span style="color:#718197;font-size:12px">📦 Descarga no configurada</span>')+'</div></article>'}).join('')}
+async function load(){try{const app=getApps().length?getApp():initializeApp(firebaseConfig);db=getFirestore(app);const snap=await getDocs(collection(db,'mods'));mods=[];snap.forEach(d=>{const m={id:d.id,...d.data()};if(m.estado!=='borrador'&&m.activa!==false)mods.push(m)});status.textContent='FIREBASE ONLINE';dot.classList.add('on');const cats=[...new Set(mods.map(cat))].sort((a,b)=>a.localeCompare(b,'es'));category.innerHTML='<option value="">Todas las categorías</option>'+cats.map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');render()}catch(e){console.error('MOD HUB FIREBASE:',e);status.textContent='FIREBASE OFFLINE';count.textContent='0 MODs';grid.innerHTML='<div class="mh-empty">⚠️ No se pudieron cargar los MODs. Revisá las reglas de Firestore y la colección mods.</div>'}}
+search.addEventListener('input',render);category.addEventListener('change',render);load();setInterval(load,30000);
+]]></script>
+</body>
+</html>
